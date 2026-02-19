@@ -1,43 +1,84 @@
-# Portfolio - Agustín Cámara
+<div align="center">
 
-Bienvenido a mi **portfolio personal**, donde presento mis proyectos y habilidades en programación.
+# Agustín Cámara — Portfolio
 
----
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-## Sobre mí
+**Portfolio personal con diseño dark moderno, animaciones y diseño responsive.**
 
-Soy estudiante de **Ingeniería en Computación** con sólida formación en múltiples lenguajes de programación, algoritmos y estructuras de datos, incluyendo:
+[🔗 Ver en vivo](https://AgustinCamara.github.io/Portfolio-main) · [💬 Contacto](https://wa.me/59892087942?text=Hola%20Agustin%2C%20vi%20tu%20portfolio)
 
-- **Python**  
-- **C y C++**  
-- **JavaScript, HTML y CSS**
-
-He desarrollado proyectos diversos, desde aplicaciones web interactivas hasta programas de consola y algoritmos complejos. Me enfoco en crear soluciones eficientes, bien estructuradas y de alta calidad, combinando habilidades técnicas con creatividad y atención al detalle.
+</div>
 
 ---
 
-## Proyectos Destacados
+## ✨ Características
 
-### 1. Tienda de Ropa
-- **Descripción:** Proyecto de tienda online con HTML, CSS y JavaScript. Permite navegar productos, ver detalles y simular un carrito de compras.  
-- **Demo:** [Ver online](https://AgustinCamara.github.io/Lince)  
-- **Código:** [Repositorio](https://github.com/AgustinCamara/Lince)  
-
-> Próximamente agregaré más proyectos en este portfolio.
-
----
-
-## Tecnologías
-
-- **Lenguajes:** Python, C, C++, JavaScript, HTML, CSS  
-- **Herramientas:** GitHub, VSCode, Git  
-- **Otros:** Desarrollo web, aplicaciones interactivas, algoritmos y estructuras de datos
+- 🌙 Diseño dark profesional con paleta violeta/cyan
+- 🎨 Animaciones reveal al hacer scroll (Intersection Observer)
+- 📱 Totalmente responsive (mobile, tablet, desktop)
+- 🍔 Menú hamburguesa animado en móvil
+- 📊 Contadores animados en la sección "Sobre mí"
+- ⬆️ Botón scroll-to-top con aparición automática
+- 🔗 Navegación activa que detecta la sección visible
+- ⚡ Carga optimizada con lazy loading de imágenes
 
 ---
 
-## Contacto
+## 🛠️ Tecnologías
 
-- **Email:** cm.agustin27@gmail.com  
-- **LinkedIn:** [Agustin Camara](https://www.linkedin.com/in/agustin-camara/)  
-- **GitHub:** [Perfil](https://github.com/AgustinCamara)  
-- **WhatsApp:** [Enviar mensaje](https://wa.me/59892087942?text=Hola%20Agustin%2C%20vi%20tu%20portfolio)
+| Categoría | Stack |
+|-----------|-------|
+| **Lenguajes** | Python, C, C++, JavaScript, HTML, CSS |
+| **Frontend** | HTML5, CSS3 (variables, grid, flexbox), JavaScript ES6+ |
+| **Fuentes** | Google Fonts (Inter) |
+| **Iconos** | Font Awesome 6 |
+| **Tools** | Git, GitHub, VS Code |
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+Portfolio-main/
+├── index.html       # Estructura principal
+├── style.css        # Estilos con variables CSS y responsive
+├── script.js        # Animaciones, menú, scroll e interactividad
+├── images/          # Capturas de los proyectos
+└── README.md
+```
+
+---
+
+## 🚀 Proyectos destacados
+
+### Tienda de Ropa — Lince
+E-commerce completo con catálogo, carrito de compras y diseño responsive.  
+**Stack:** HTML · CSS · JavaScript  
+[📦 Código](https://github.com/AgustinCamara/Lince) · [🌐 Demo](https://AgustinCamara.github.io/Lince)
+
+### Asistente Legal con IA
+Asistente legal inteligente impulsado por Groq API para consultas jurídicas en tiempo real.  
+**Stack:** HTML · CSS · JavaScript · Groq API  
+[📦 Código](https://github.com/AgustinCamara/Asistente-legal) · [🌐 Demo](https://AgustinCamara.github.io/Asistente-Legal/)
+
+---
+
+## 📬 Contacto
+
+| Canal | Enlace |
+|-------|--------|
+| **Email** | [cm.agustin27@gmail.com](mailto:cm.agustin27@gmail.com) |
+| **LinkedIn** | [Agustín Cámara](https://www.linkedin.com/in/agustin-camara/) |
+| **GitHub** | [AgustinCamara](https://github.com/AgustinCamara) |
+| **WhatsApp** | [Enviar mensaje](https://wa.me/59892087942?text=Hola%20Agustin%2C%20vi%20tu%20portfolio) |
+
+---
+
+<div align="center">
+
+Hecho con ☕ y código por **Agustín Cámara** — 2026
+
+</div>

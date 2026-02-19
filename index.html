@@ -3,51 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Agustín Cámara</title>
+    <meta name="description" content="Portfolio de Agustín Cámara — Estudiante de Ingeniería en Computación. Desarrollo web, algoritmos y soluciones de software.">
+    <meta name="author" content="Agustín Cámara">
+    <title>Agustín Cámara — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Agustín Cámara</h1>
-        <nav>
-            <a href="#sobre-mi">Sobre mí</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
+    <!-- Navbar -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">AC<span class="logo-dot">.</span></a>
+            <nav id="nav-menu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+                <a href="#habilidades" class="nav-link">Habilidades</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
     </header>
 
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>Soy estudiante de Ingeniería en Computación con sólida formación en múltiples lenguajes de programación, incluyendo Python, C, C++, JavaScript, HTML y CSS. Tengo experiencia desarrollando proyectos diversos, desde aplicaciones web interactivas hasta programas de consola y algoritmos complejos. Me enfoco en crear soluciones eficientes, bien estructuradas y de alta calidad, combinando habilidades técnicas con creatividad y atención al detalle.</p>
-    </section>
-
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <div class="proyectos-container">
-            <div class="proyecto">
-                <img src="images/tienda-ropa.png" alt="Tienda de ropa">
-                <h3>Tienda de Ropa</h3>
-                <p>Proyecto de tienda online con HTML, CSS y JavaScript</p>
-                <a href="https://github.com/AgustinCamara/Lince" target="_blank">Repo | </a>
-                <a href="https://AgustinCamara.github.io/Lince" target="_blank">Demo</a>
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting reveal">Hola, soy</p>
+            <h1 class="hero-name reveal">Agustín Cámara<span class="hero-dot">.</span></h1>
+            <h2 class="hero-title reveal">Estudiante de Ingeniería en Computación</h2>
+            <p class="hero-description reveal">Construyo soluciones digitales eficientes, creativas y bien estructuradas — desde aplicaciones web hasta algoritmos complejos.</p>
+            <div class="hero-cta reveal">
+                <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                <a href="#contacto" class="btn btn-outline">Contactame</a>
             </div>
-
-            <div class="proyecto">
-                <img src="images/asistente-legal.png" alt="Asistente legal">
-                <h3>Asistente legal</h3>
-                <p>Proyecto de asistente legal online con HTML, CSS, JavaScript y Groq API</p>
-                <a href="https://github.com/AgustinCamara/Asistente-legal" target="_blank">Repo | </a>
-                <a href="https://AgustinCamara.github.io/Asistente-Legal/" target="_blank">Demo</a>
+            <div class="hero-socials reveal">
+                <a href="https://github.com/AgustinCamara" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/agustin-camara/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:cm.agustin27@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-visual reveal">
+            <div class="hero-blob"></div>
+            <div class="hero-code-block">
+                <span class="code-line"><span class="code-keyword">const</span> dev = {</span>
+                <span class="code-line">&nbsp;&nbsp;nombre: <span class="code-string">"Agustín"</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;pasión: <span class="code-string">"Código limpio"</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;café: <span class="code-bool">true</span></span>
+                <span class="code-line">};</span>
             </div>
         </div>
     </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Email: <a href="mailto:cm.agustin27@gmail.com">cm.agustin27@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/agustin-camara/" target="_blank">Agustin Camara</a></p>
-        <a href="https://wa.me/59892087942?text=Hola%20Agustin%2C%20vi%20tu%20portfolio" target="_blank" class="btn-wpp">WhatsApp</a>
+    <!-- Sobre mí -->
+    <section id="sobre-mi">
+        <div class="section-container">
+            <h2 class="section-title reveal">Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <p>Soy estudiante de <strong>Ingeniería en Computación</strong> con sólida formación en múltiples lenguajes de programación, incluyendo Python, C, C++, JavaScript, HTML y CSS.</p>
+                    <p>Tengo experiencia desarrollando proyectos diversos, desde <strong>aplicaciones web interactivas</strong> hasta programas de consola y <strong>algoritmos complejos</strong>.</p>
+                    <p>Me enfoco en crear soluciones eficientes, bien estructuradas y de alta calidad, combinando habilidades técnicas con creatividad y atención al detalle.</p>
+                </div>
+                <div class="about-stats reveal">
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="2">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Proyectos</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="6">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Tecnologías</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="3">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Años estudiando</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+        <div class="section-container">
+            <h2 class="section-title reveal">Habilidades</h2>
+            <div class="skills-grid reveal">
+                <div class="skill-card">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-c"></i>
+                    <span>C / C++</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-terminal"></i>
+                    <span>Terminal</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos">
+        <div class="section-container">
+            <h2 class="section-title reveal">Proyectos</h2>
+            <div class="proyectos-container">
+                <article class="proyecto-card reveal">
+                    <div class="proyecto-img-wrapper">
+                        <img src="images/tienda-ropa.png" alt="Tienda de Ropa — Lince" loading="lazy">
+                        <div class="proyecto-overlay">
+                            <a href="https://AgustinCamara.github.io/Lince" target="_blank" class="overlay-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>Tienda de Ropa — Lince</h3>
+                        <p>E-commerce completo con catálogo, carrito de compras y diseño responsive.</p>
+                        <div class="proyecto-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="proyecto-links">
+                            <a href="https://github.com/AgustinCamara/Lince" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+                            <a href="https://AgustinCamara.github.io/Lince" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="proyecto-card reveal">
+                    <div class="proyecto-img-wrapper">
+                        <img src="images/Asistente-judicial.png" alt="Asistente Legal con IA" loading="lazy">
+                        <div class="proyecto-overlay">
+                            <a href="https://AgustinCamara.github.io/Asistente-Legal/" target="_blank" class="overlay-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>Asistente Legal con IA</h3>
+                        <p>Asistente legal inteligente impulsado por Groq API para consultas jurídicas en tiempo real.</p>
+                        <div class="proyecto-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Groq API</span>
+                        </div>
+                        <div class="proyecto-links">
+                            <a href="https://github.com/AgustinCamara/Asistente-legal" target="_blank"><i class="fa-brands fa-github"></i> Código</a>
+                            <a href="https://AgustinCamara.github.io/Asistente-Legal/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <div class="section-container">
+            <h2 class="section-title reveal">Contacto</h2>
+            <p class="contact-intro reveal">¿Tenés un proyecto en mente o querés charlar? No dudes en escribirme.</p>
+            <div class="contact-grid">
+                <a href="mailto:cm.agustin27@gmail.com" class="contact-card reveal">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h4>Email</h4>
+                    <span>cm.agustin27@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/agustin-camara/" target="_blank" class="contact-card reveal">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <h4>LinkedIn</h4>
+                    <span>Agustín Cámara</span>
+                </a>
+                <a href="https://wa.me/59892087942?text=Hola%20Agustin%2C%20vi%20tu%20portfolio" target="_blank" class="contact-card reveal">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <h4>WhatsApp</h4>
+                    <span>Enviar mensaje</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Agustín Cámara. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="https://github.com/AgustinCamara" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/agustin-camara/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top" id="scrollTopBtn" aria-label="Volver arriba">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
