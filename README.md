@@ -2,10 +2,6 @@
 
 # Agustín Cámara — Portfolio
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
 **Portfolio personal con diseño dark moderno, animaciones y diseño responsive.**
 
 [Ver en vivo](https://AgustinCamara.github.io/Portfolio/) · [Contacto](https://wa.me/59892087942?text=Hola%20Agustin%2C%20vi%20tu%20portfolio)
@@ -68,6 +64,11 @@ E-commerce completo con catálogo, carrito de compras y diseño responsive.
 Asistente legal inteligente impulsado por Groq API para consultas jurídicas en tiempo real.  
 **Stack:** HTML · CSS · JavaScript · Groq API  
 [Código](https://github.com/AgustinCamara/Asistente-legal) · [Demo](https://asistente-legal-phi.vercel.app/)  
+
+### Proyecto Universitario C++ & C  
+Laboratorios de Programación 4 en C++ — OOP, patrones de diseño y gestión de memoria dinámica.  
+**Stack:** C · C++ · Makefile · Linux Terminal  
+[Código](https://github.com/AgustinCamara/Proyecto-Universitario/)  
 
 ---
 
