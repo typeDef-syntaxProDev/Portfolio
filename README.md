@@ -55,23 +55,19 @@ Portfolio-main/
 ## Proyectos destacados
 
 ### Sitio B2C para Oficios — Resolvé.uy
-Sitio Web B2C para la búsqueda de oficios en Uruguay. //
-**Stack:** HTML · CSS · JavaScript · Backend Supabase
-[Código](https://github.com/AgustinCamara/Resolve.uy) · [Demo](https://resolve-uy.vercel.app/)
+Sitio Web B2C para la búsqueda de oficios en Uruguay.  
+**Stack:** HTML · CSS · JavaScript · Backend Supabase  
+[Código](https://github.com/AgustinCamara/Resolve.uy) · [Demo](https://resolve-uy.vercel.app/)  
 
 ### Tienda de Ropa — Lince
-E-commerce completo con catálogo, carrito de compras y diseño responsive.
-
-**Stack:** HTML · CSS · JavaScript
-
-[Código](https://github.com/AgustinCamara/Lince) · [Demo](https://lince-clothes.vercel.app/)
+E-commerce completo con catálogo, carrito de compras y diseño responsive.  
+**Stack:** HTML · CSS · JavaScript  
+[Código](https://github.com/AgustinCamara/Lince) · [Demo](https://lince-clothes.vercel.app/)  
 
 ### Asistente Legal con IA
-Asistente legal inteligente impulsado por Groq API para consultas jurídicas en tiempo real.
-
-**Stack:** HTML · CSS · JavaScript · Groq API
-
-[Código](https://github.com/AgustinCamara/Asistente-legal) · [Demo](https://asistente-legal-phi.vercel.app/)
+Asistente legal inteligente impulsado por Groq API para consultas jurídicas en tiempo real.  
+**Stack:** HTML · CSS · JavaScript · Groq API  
+[Código](https://github.com/AgustinCamara/Asistente-legal) · [Demo](https://asistente-legal-phi.vercel.app/)  
 
 ---
 
