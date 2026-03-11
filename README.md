@@ -29,9 +29,7 @@
 |-----------|-------|
 | **Languages** | Python, C, C++, JavaScript, HTML, CSS |
 | **Frontend** | HTML5, CSS3 (variables, grid, flexbox), JavaScript ES6+ |
-| **Fonts** | Google Fonts (Inter) |
-| **Icons** | Font Awesome 6 |
-| **Tools** | Git, GitHub, VS Code |
+| **Tools** | Git, GitHub, VS Code, Notion |
 
 ---
 
@@ -68,12 +66,12 @@ Smart legal assistant powered by Groq API for real-time legal queries.
 ### University Project C++ & C  
 Programación 4 labs in C++ — OOP, design patterns, and dynamic memory management.  
 **Stack:** C · C++ · Makefile · Linux Terminal  
-
 [Code](https://github.com/AgustinCamara/Proyecto-Universitario/)  
 
 ### Python Game Collection — Pygame
 Collection of 4 Python games built with Pygame — Pong, Space Shooter, Platformer & Vampire Survivor — showcasing progressive game dev techniques: delta-time movement, pixel-perfect collisions, TMX tile maps, camera systems, and enemy AI.
 **Stack:** Python · Tiled
+[Code](https://github.com/AgustinCamara/Python-Games/)  
 
 ---
 
